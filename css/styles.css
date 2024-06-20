@@ -1,0 +1,143 @@
+body{
+    margin: 0 0;
+    padding: 0 0;
+}
+.first{
+    background-color: #7469B6;
+    text-align: center;
+   
+}
+.first h1{
+    font-family: "Playwrite IS", cursive;
+    font-optical-sizing: auto;
+    font-size: 50px;
+    font-weight: 1200;
+    font-style: normal;
+    color: whitesmoke;
+    padding: 20px 0px;
+}
+.image{
+    border-radius: 50%;
+    border: 6px solid whitesmoke;
+    margin-bottom: 20px;
+}
+.bhel-img{
+    border-radius: 50%;
+}
+
+.note{
+    background-color: white;
+    text-align: center;
+}
+.content{
+    padding: 30px 500px;
+}
+.content p{
+    color: #7469B6;
+    font-family: "Playwrite IS", cursive;
+    font-optical-sizing: auto;
+    font-size: 20px;
+    font-weight: 1000;
+    font-style: normal;
+
+}
+.row{
+    display: flex;
+    background-color: #AD88C6;
+    padding: 30px 0px;
+}
+.card-text{
+    padding: 0px 300px;
+}
+.card-text p{
+    color: whitesmoke;
+    font-family: "Playwrite IS", cursive;
+    font-optical-sizing: auto;
+    font-size: 20px;
+    font-weight: 1000;
+    font-style: normal;
+}
+.photo{
+    padding-right: 300px;
+}
+.me{
+    background-color: #E2BBE9;
+    color: whitesmoke;
+}
+.my-content{
+    font-family: "Playwrite IS", cursive;
+    font-optical-sizing: auto;
+    font-size: 20px;
+    font-weight: 1000;
+    font-style: normal;
+}
+.my-content{
+    display: flex;
+    text-align: center;
+    
+}
+.heading{
+    text-align: center;
+    font-family: "Playwrite IS", cursive;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: whitesmoke;
+    padding: 15px 0px;
+}
+.varsha-img{
+    border-radius: 50%;
+}
+.made{
+    padding:  0 200px;
+    text-align: center;
+}
+.varsha{
+   margin-left: 20px;
+}
+.me .my-content p{
+    margin-top: 100px;
+    margin-left: 420px;
+}
+
+
+/* Reponsive */
+
+@media only screen and (max-width :1600px){
+    .content{
+        width: 100%;
+        text-align: center;
+        padding: 0;
+        
+    }
+    .card-text{
+        padding: 0 50px;
+    }
+    .photo{
+        padding-right: 50px;
+    }
+    .me .my-content p{
+        text-align: center;
+        margin: 100px;
+    }
+    .made{
+        padding: 0 100px;
+    }
+    .varsha{
+        margin: 0 0 30px 0;
+    }
+}
+@media only screen and (max-width :700px){
+    .row{
+        display: block;
+    }
+    .photo{
+        text-align: center;
+    }
+    .my-content{
+        display: block;
+    }
+    .me .my-content p{
+        margin: 10px;
+    }
+}
